@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg5"
+    android:forceDarkAllowed="false"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/home_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/fcsa_logo" />
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:shadowColor="@color/white"
+            android:lineSpacingExtra="5dp"
+            android:text="Welcome to FCSA NEET &amp; IIT-JEE  \n Coaching Academy"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gif_view1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/text_view"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view"
+            android:layout_alignParentRight="true"
+            android:shadowColor="@color/white"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Game Changer in Professional Exams"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gif_view4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/gif_view1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gif_view1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp"
+            android:shadowColor="@color/white"
+            android:layout_marginRight="100dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Rendezvous with students\n-Get Inspired-"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gif_view2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/gif_view4"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gif_view4"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:lineSpacingExtra="5dp"
+            android:shadowColor="@color/white"
+            android:text="Life changing conclave for students for all ages"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gif_view3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/gif_view2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gif_view3"
+            android:shadowColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Get ready for most influential and best Coaching sessions of NEET &amp; JEE.\n
+Regular and Foundations for the students of 9th, 10th, 11th, 12th, NEET aspirants, JEE Aspirants....\n
+Most experienced Expert Educators who have made Doctors &amp; IITians....on regular basis..."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view1"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:shadowColor="@color/white"
+            android:text="DIGITAL TOUCH"
+            android:textColor="@color/purple_200"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view2"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:id="@+id/video_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view1"
+            android:textStyle="bold"
+            android:shadowColor="@color/white"
+            android:lineSpacingExtra="5dp"
+            android:text="Senses Interactive Panel is a classroom solution which provides teachers with flexibility,reusability and a variety of tools that make learning fun.
+            Similarly for students an interactive display in  FCSA academy allows them to use technology productively\n
+Senses  interactive panel is a ONE SCREEN that provides an educational canvas that teachers can use to improve their classroom engagement.with a comprehensive interactive platform,students and teachers can create content that’s easily shareable and digestible by classmates."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view3"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:shadowColor="@color/white"
+            android:text="EVENTS"
+            android:textColor="@color/purple_200"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@id/text_view4"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+</ScrollView>
